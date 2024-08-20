@@ -1,7 +1,7 @@
 > [!CAUTION]
 >**puerto:** http://localhost:9090 o [presiona aquí](http://localhost:9090)
 
-## proy1
+## [proy1](../proy1)
 3-10ago : http://localhost:9090/api/prueb
 > [!NOTE]
 > springweb
