@@ -2,13 +2,19 @@
 >**puerto utilizado:** http://localhost:9090 o [presiona aquí](http://localhost:9090)
 
 ## [proy1](/proy1)
-3-10ago : http://localhost:9090/api/prueb
+num 3 - 10ago : http://localhost:9090/api/prueb
 > [!NOTE]
 > Dependencias utilizadas:
 > - springweb
 
+> [!TIP]
+> En `proy1` se realiza:
+> - creacción del proyecto utilizando [spring initializr](https://start.spring.io/).
+> - creación de `proy1/src/main/java/com/pyto/taller/controller/Prueba.java` (controlador y la clase prueba).
+> - cambio del puerto del servidor `proy1/target/classes/application.properties` mediante `server.port=9090`.
+
 ## [proy2](/proy2)
-*creamos la BD en postgresql de acuerdo a las propiedades del proyecto `application.properties`, en este caso la BD se llamará* `academia`
+*Se requiere crear la BD en postgresql de acuerdo a las propiedades del proyecto `application.properties`, en este caso la BD se llamará* `academia`
 ```sql
 CREATE DATABASE academia;
 ```
@@ -36,20 +42,38 @@ select * from personal;
 > - jpa
 > - jdbc
 
+> [!TIP]
+> En `proy2` se realiza:
+> - Insertacion de dependencias en el `pom.xml`:
+> 	- posgresql
+> 	- jpa
+> 	- jdbc
+>  - creación de BD en postgresql
+>  - creación de los paquetes del model/PersonalModel.java y repository
+
 ## [proy3](/proy3)
 > [!NOTE]
 > Dependencias utilizadas:
 > - springweb
+> - posgresql
+> - jpa
+> - jdbc
 
 ## [proy4](/proy4)
 > [!NOTE]
 > Dependencias utilizadas:
 > - springweb
+> - posgresql
+> - jpa
+> - jdbc
 
 ## [proy5](/proy5)
 > [!NOTE]
 > Dependencias utilizadas:
 > - springweb
+> - posgresql
+> - jpa
+> - jdbc
 
 ---
 [Todos los proyectos](https://github.com/jjehu/taller1-springboot/tree/main)
