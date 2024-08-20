@@ -15,28 +15,29 @@ num 1-3 / 10ago : http://localhost:9090/api/prueb
 
 ## [proy2](/proy2)
 num 4-14 / 10ago : http://localhost:9090/api/personal
+> [!IMPORTANT]
+> *Se requiere crear la BD en postgresql de acuerdo a las propiedades del proyecto `application.properties`, en este caso la BD se llamará* `academia`
+> ```sql
+> CREATE DATABASE academia;
+> ```
+> *creamos las tablas*
+> ```sql
+> create table personal(
+> 	codper serial not null,
+> 	nombre varchar(40) not null,
+> 	ap varchar(40),
+> 	am varchar(40),
+> 	estado integer default 1 not null,
+> 	primary key(codper)
+> );
+> ```
+> *insertamos datos y realizamos una consulta*
+> ```sql
+> insert into personal values(1, 'JOSE','MIRANDA','MERCADO',1);
+> insert into personal values(2, 'RAUL','ARANDIA','GUZMAN',1);
+> select * from personal;
+> ```
 
-*Se requiere crear la BD en postgresql de acuerdo a las propiedades del proyecto `application.properties`, en este caso la BD se llamará* `academia`
-```sql
-CREATE DATABASE academia;
-```
-*creamos las tablas*
-```sql
-create table personal(
-	codper serial not null,
-	nombre varchar(40) not null,
-	ap varchar(40),
-	am varchar(40),
-	estado integer default 1 not null,
-	primary key(codper)
-);
-```
-*insertamos datos y realizamos una consulta*
-```sql
-insert into personal values(1, 'JOSE','MIRANDA','MERCADO',1);
-insert into personal values(2, 'RAUL','ARANDIA','GUZMAN',1);
-select * from personal;
-```
 > [!NOTE]
 > Dependencias utilizadas:
 > - springweb
