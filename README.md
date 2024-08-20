@@ -8,9 +8,26 @@
 > - springweb
 
 ## [proy2](/proy2)
+*creamos la BD en postgresql de acuerdo a las propiedades del proyecto `application.properties`, en este caso la BD se llamará* `academia`
+```sql
+CREATE DATABASE academia;
+```
+```sql
+CREATE TABLE personal(
+	codpar serial not null,
+	nombre varchar(40) not null,
+	ap varchar(40),
+	am varchar(40),
+	estado integer default 1 not null,
+	primary key(codper)
+);
+```
 > [!NOTE]
 > Dependencias utilizadas:
 > - springweb
+> - posgresql
+> - jpa
+> - jdbc
 
 ## [proy3](/proy3)
 > [!NOTE]
