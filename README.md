@@ -12,15 +12,22 @@
 ```sql
 CREATE DATABASE academia;
 ```
+*creamos las tablas*
 ```sql
-CREATE TABLE personal(
-	codpar serial not null,
+create table personal(
+	codper serial not null,
 	nombre varchar(40) not null,
 	ap varchar(40),
 	am varchar(40),
 	estado integer default 1 not null,
 	primary key(codper)
 );
+```
+*insertamos datos y realizamos una consulta*
+```sql
+insert into personal values(1, 'JOSE','MIRANDA','MERCADO',1);
+insert into personal values(2, 'RAUL','ARANDIA','GUZMAN',1);
+select * from personal;
 ```
 > [!NOTE]
 > Dependencias utilizadas:
