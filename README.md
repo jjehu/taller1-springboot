@@ -1,8 +1,7 @@
 > [!CAUTION]
 >**puerto utilizado:** http://localhost:9090
 > 
-> [Carpeta](https://github.com/jjehu/taller1-springboot/tree/main)
-> [Descargar](/jjehu/taller1-springboot/archive/refs/heads/main.zip)
+> [Carpeta](https://github.com/jjehu/taller1-springboot/tree/main) - [`Descargar`](/jjehu/taller1-springboot/archive/refs/heads/main.zip)
 
 ## [proy1](/proy1)
 num 1-3 / 10ago : http://localhost:9090/api/prueb
