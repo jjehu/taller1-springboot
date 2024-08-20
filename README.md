@@ -10,8 +10,8 @@ num 3 - 10ago : http://localhost:9090/api/prueb
 > [!TIP]
 > En `proy1` se realiza:
 > - creacción del proyecto utilizando [spring initializr](https://start.spring.io/).
-> - creación de `proy1/src/main/java/com/pyto/taller/controller/Prueba.java` (controlador y la clase prueba).
-> - cambio del puerto del servidor `proy1/target/classes/application.properties` mediante `server.port=9090`.
+> - creación de `proy1/src/main/java/com/pyto/taller/controller/Prueba.java` [link](proy1/src/main/java/com/pyto/taller/controller/Prueba.java) (controlador y la clase prueba).
+> - cambio del puerto del servidor `proy1/target/classes/application.properties` [link](proy1/target/classes/application.properties) mediante `server.port=9090`.
 
 ## [proy2](/proy2)
 *Se requiere crear la BD en postgresql de acuerdo a las propiedades del proyecto `application.properties`, en este caso la BD se llamará* `academia`
@@ -49,7 +49,10 @@ select * from personal;
 > 	- jpa
 > 	- jdbc
 >  - creación de BD en postgresql
->  - creación de los paquetes del model/PersonalModel.java y repository
+>  - creación de:
+>  	- `proy2/src/main/java/com/pyto/taller/controller/PersonalController.java` [link](proy2/src/main/java/com/pyto/taller/controller/PersonalController.java)
+>  	- `proy2/src/main/java/com/pyto/taller/model/PersonalModel.java` [link](proy2/src/main/java/com/pyto/taller/model/PersonalModel.java)
+>  	- `proy2/src/main/java/com/pyto/taller/repository/PersonalRepo.java` [link](proy2/src/main/java/com/pyto/taller/repository/PersonalRepo.java)
 
 ## [proy3](/proy3)
 > [!NOTE]
