@@ -15,6 +15,7 @@ num 1-3 - 10ago : http://localhost:9090/api/prueb
 
 ## [proy2](/proy2)
 num 4-14 - 10ago : http://localhost:9090/api/personal
+
 *Se requiere crear la BD en postgresql de acuerdo a las propiedades del proyecto `application.properties`, en este caso la BD se llamará* `academia`
 ```sql
 CREATE DATABASE academia;
