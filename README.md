@@ -2,7 +2,7 @@
 >**puerto utilizado:** http://localhost:9090
 
 ## [proy1](/proy1)
-num 1-3 - 10ago : http://localhost:9090/api/prueb
+num 1-3 / 10ago : http://localhost:9090/api/prueb
 > [!NOTE]
 > Dependencias utilizadas:
 > - springweb
@@ -14,7 +14,7 @@ num 1-3 - 10ago : http://localhost:9090/api/prueb
 > - cambio del puerto del servidor `proy1/target/classes/application.properties` [link](proy1/target/classes/application.properties) mediante `server.port=9090`.
 
 ## [proy2](/proy2)
-num 4-14 - 10ago : http://localhost:9090/api/personal
+num 4-14 / 10ago : http://localhost:9090/api/personal
 
 *Se requiere crear la BD en postgresql de acuerdo a las propiedades del proyecto `application.properties`, en este caso la BD se llamará* `academia`
 ```sql
