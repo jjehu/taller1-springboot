@@ -59,13 +59,49 @@ num 4-14 / 10ago : http://localhost:9090/api/personal
 >  	- `proy2/src/main/java/com/pyto/taller/model/PersonalModel.java` [link](proy2/src/main/java/com/pyto/taller/model/PersonalModel.java)
 >  	- `proy2/src/main/java/com/pyto/taller/repository/PersonalRepo.java` [link](proy2/src/main/java/com/pyto/taller/repository/PersonalRepo.java)
 
-## [proy3](/proy3)
+## [proy3](/proy3) - Lombok
+
+num 1-2 / 12ago : http://localhost:9090
+> [!IMPORTANT]
+> *Dependencia*
+> ```xml
+> 	<dependency>
+> 		<groupId>org.projectlombok</groupId>
+> 		<artifactId>lombok</artifactId>
+> 		<optional>true</optional>
+> 	</dependency>
+> ```
+> *plugin*
+> ```xml
+> 	<build>
+> 		<plugins>
+> 			<plugin>
+> 				<groupId>org.springframework.boot</groupId>
+> 				<artifactId>spring-boot-maven-plugin</artifactId>				
+> 				<configuration>
+> 					<excludes>
+> 						<exclude>
+> 							<groupId>org.projectlombok</groupId>
+> 							<artifactId>lombok</artifactId>
+> 						</exclude>
+> 					</excludes>
+> 				</configuration>				
+> 			</plugin>
+> 		</plugins>
+> 	</build>
+> ```
+> https://projectlombok.org/setup/eclipse
+> ```
+> https://projectlombok.org/p2
+> ```
+
 > [!NOTE]
 > Dependencias utilizadas:
 > - springweb
 > - posgresql
 > - jpa
 > - jdbc
+> - Lombok
 
 ## [proy4](/proy4)
 > [!NOTE]
@@ -74,15 +110,6 @@ num 4-14 / 10ago : http://localhost:9090/api/personal
 > - posgresql
 > - jpa
 > - jdbc
-
-## [proy5](/proy5)
-> [!NOTE]
-> Dependencias utilizadas:
-> - springweb
-> - posgresql
-> - jpa
-> - jdbc
-
 ---
 
 [.](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
