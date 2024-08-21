@@ -63,6 +63,7 @@ num 4-14 / 10ago : http://localhost:9090/api/personal
 
 num 1-2 / 12ago : http://localhost:9090
 > [!IMPORTANT]
+> **PARA INSTALAR LOMBOK**
 > *Dependencia*
 > ```xml
 > 	<dependency>
@@ -102,6 +103,23 @@ num 1-2 / 12ago : http://localhost:9090
 > - jpa
 > - jdbc
 > - Lombok
+
+> [!TIP]
+> En `proy2` se realiza:
+> - Instalación de Lombok en el `pom.xml`
+> - Cambios en el [PersonalModel]() utilizando Lombok
+>
+> Sintax:
+> 
+> (se pone a la clase para que se genere automaticamente para todos)
+> - `@Getter` para generar getter
+> - `@Setter` para generar setter
+> - `@AllArgsConstructor` para generar los constructores
+> - `@Data` para crear todos los anteriores, entre otros
+> 
+> (se pone a la variable para no generar)
+> - `@Getter(AccessLevel.NONE)`
+> - `@Setter(AccessLevel.NONE)`
 
 ## [proy4](#)
 > [!NOTE]
