@@ -145,9 +145,26 @@ vid 4-7 / 12ago : http://localhost:9090/datos  -  http://localhost:9090/datoscon
 >
 > 
 > En `proy4` a comparacion de `proy3` se añade ademas las clases necesarias para que sirva DatosDTO como:
-> - `Datoscontroller` proy4/src/main/java/com/pyto/taller/controller/DatosController.java
-> - `DatosModel` proy4/src/main/java/com/pyto/taller/model/DatosModel.java
-> - `DatosRepo` proy4/src/main/java/com/pyto/taller/repository/DatosRepo.java
+> - `Datoscontroller` proy4/src/main/java/com/pyto/taller/controller/DatosController.java [link](proy4/src/main/java/com/pyto/taller/controller/DatosController.java)
+> - `DatosModel` proy4/src/main/java/com/pyto/taller/model/DatosModel.java [link](proy4/src/main/java/com/pyto/taller/model/DatosModel.java)
+> - `DatosRepo` proy4/src/main/java/com/pyto/taller/repository/DatosRepo.java [link](proy4/src/main/java/com/pyto/taller/repository/DatosRepo.java)
+
+> [!IMPORTANT]
+> ```sql
+> create table datos(
+> 	login varchar(40) not null,
+> 	cedula varchar(40) not null,
+> 	clave varchar(40) not null,
+> 	estado integer default 1 not null,
+> 	primary key(login)
+> );
+> 
+> insert into datos values('JOSE','102748135','jose123',1);
+> insert into datos values('RAUL','102742157','raul123',1);
+> select * from datos;
+> ```
+
+## [proy5](/proy5)
 
 ---
 jwt token
