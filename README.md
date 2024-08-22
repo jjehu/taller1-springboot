@@ -124,8 +124,9 @@ vid 1-4 / 12ago : http://localhost:9090
 
 ## [proy4](/proy4)
 
-vid 4-7 / 12ago : http://localhost:9090
-*Esto se realiza para que la api solo pase el login y token de la clase Datos*
+vid 4-7 / 12ago : http://localhost:9090/datos  -  http://localhost:9090/datosconDTO
+
+*Esto se realiza para que la api solo pase el login y token de la clase Datos, para esto creamos unas clases y interfaces auxiliares llamada `DTO` para diferenciarlas*
 
 > [!NOTE]
 > Dependencias utilizadas:
@@ -137,8 +138,18 @@ vid 4-7 / 12ago : http://localhost:9090
 
 > [!TIP]
 > En `proy4` se realiza:
-> 1. Se crea la clase en model DatosDTO
-> 2. Se crea la clase en services
+> 1. Se crea en el paquete `model.dto` la clase `DatosDTO` [link]()
+> 2. Se crea en el paquete `services.dto` la interface `DatosServicesDTO` [link]()
+> 3. Se crea en el paquete `services.dto` la clase `DatosServicesImpl` [link]()
+> 4. En la clase `DatosController` [link]() se añade `@GetMapping("/datosconDTO")`
+>
+> 
+> En `proy4` a comparacion de `proy3` se añade ademas las clases necesarias para que sirva DatosDTO como:
+> - `Datoscontroller` [link]()
+> - `DatosModel` [link]()
+> - `DatosRepo` [link]()
+
 ---
+jwt token
 
 [.](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
