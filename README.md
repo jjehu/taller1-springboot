@@ -4,7 +4,7 @@
 > [Carpeta](https://github.com/jjehu/taller1-springboot/tree/main) - [`Descargar`](https://github.com/jjehu/taller1-springboot/archive/refs/heads/main.zip)
 
 ## [proy1](/proy1)
-num 1-3 / 10ago : http://localhost:9090/api/prueb
+vid 1-3 / 10ago : http://localhost:9090/api/prueb
 > [!NOTE]
 > Dependencias utilizadas:
 > - springweb
@@ -16,7 +16,7 @@ num 1-3 / 10ago : http://localhost:9090/api/prueb
 > - cambio del puerto del servidor `proy1/target/classes/application.properties` [link](proy1/target/classes/application.properties) mediante `server.port=9090`.
 
 ## [proy2](/proy2)
-num 4-14 / 10ago : http://localhost:9090/api/personal
+vid 4-14 / 10ago : http://localhost:9090/api/personal
 > [!IMPORTANT]
 > *Se requiere crear la BD en postgresql de acuerdo a las propiedades del proyecto `application.properties`, en este caso la BD se llamará* `academia`
 > ```sql
@@ -61,7 +61,7 @@ num 4-14 / 10ago : http://localhost:9090/api/personal
 
 ## [proy3](/proy3) - Lombok
 
-num 1-2 / 12ago : http://localhost:9090
+vid 1-4 / 12ago : http://localhost:9090
 > [!IMPORTANT]
 > **PARA INSTALAR LOMBOK**
 > *Dependencia*
@@ -102,14 +102,13 @@ num 1-2 / 12ago : http://localhost:9090
 > - posgresql
 > - jpa
 > - jdbc
-> - Lombok
+> - lombok
 
 > [!TIP]
-> En `proy2` se realiza:
+> En `proy3` se realiza:
 > - Instalación de Lombok en el `pom.xml`
 > - Cambios en el [PersonalModel]() utilizando Lombok
-> - Se crea la clase en model DatosDTO
-> - Se crea la clase en services
+
 >
 > Sintax:
 > 
@@ -123,13 +122,23 @@ num 1-2 / 12ago : http://localhost:9090
 > - `@Getter(AccessLevel.NONE)`
 > - `@Setter(AccessLevel.NONE)`
 
-## [proy4](#)
+## [proy4](/proy4)
+
+vid 4-7 / 12ago : http://localhost:9090
+*Esto se realiza para que la api solo pase el login y token de la clase Datos*
+
 > [!NOTE]
 > Dependencias utilizadas:
 > - springweb
 > - posgresql
 > - jpa
 > - jdbc
+> - lombok
+
+> [!TIP]
+> En `proy4` se realiza:
+> 1. Se crea la clase en model DatosDTO
+> 2. Se crea la clase en services
 ---
 
 [.](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
