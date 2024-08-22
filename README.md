@@ -108,6 +108,8 @@ num 1-2 / 12ago : http://localhost:9090
 > En `proy2` se realiza:
 > - Instalación de Lombok en el `pom.xml`
 > - Cambios en el [PersonalModel]() utilizando Lombok
+> - Se crea la clase en model DatosDTO
+> - Se crea la clase en services
 >
 > Sintax:
 > 
