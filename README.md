@@ -138,16 +138,16 @@ vid 4-7 / 12ago : http://localhost:9090/datos  -  http://localhost:9090/datoscon
 
 > [!TIP]
 > En `proy4` se realiza:
-> 1. Se crea en el paquete `model.dto` la clase `DatosDTO` [link]()
-> 2. Se crea en el paquete `services.dto` la interface `DatosServicesDTO` [link]()
-> 3. Se crea en el paquete `services.dto` la clase `DatosServicesImpl` [link]()
-> 4. En la clase `DatosController` [link]() se añade `@GetMapping("/datosconDTO")`
+> 1. Se crea en el paquete `model.dto` la clase `proy4/src/main/java/com/pyto/taller/model/dto/DatosDTO.java` [link](proy4/src/main/java/com/pyto/taller/model/dto/DatosDTO.java)
+> 2. Se crea en el paquete `services.dto` la interface `proy4/src/main/java/com/pyto/taller/service/DatosService.java` [link](proy4/src/main/java/com/pyto/taller/service/DatosService.java)
+> 3. Se crea en el paquete `services.dto` la clase `proy4/src/main/java/com/pyto/taller/service/DatosServiceImpl.java` [link](proy4/src/main/java/com/pyto/taller/service/DatosServiceImpl.java)
+> 4. En la clase `DatosController` [link](proy4/src/main/java/com/pyto/taller/controller/DatosController.java) se añade `@GetMapping("/datosconDTO")`
 >
 > 
 > En `proy4` a comparacion de `proy3` se añade ademas las clases necesarias para que sirva DatosDTO como:
-> - `Datoscontroller` [link]()
-> - `DatosModel` [link]()
-> - `DatosRepo` [link]()
+> - `Datoscontroller` proy4/src/main/java/com/pyto/taller/controller/DatosController.java
+> - `DatosModel` proy4/src/main/java/com/pyto/taller/model/DatosModel.java
+> - `DatosRepo` proy4/src/main/java/com/pyto/taller/repository/DatosRepo.java
 
 ---
 jwt token
