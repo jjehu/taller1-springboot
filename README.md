@@ -177,11 +177,11 @@ vid 1-4 / 16ago : http://localhost:9090
 
 > [!TIP]
 > En `proy4` se realiza:
-> - Se crea `DatosDtoI` (interface) [link]()
-> - Añadimos a `DatosRepo` [link]()
-> - Se crea `DatosService` (interface) [link]()
-> - Se crea `DatosServiceImpl` (clase) [link]()
-> - Editamos `DatosController` [link]()
+> - Se crea `proy5/src/main/java/com/taller/proye01/model/dto/DatosDtoI.java` (interface) [link](proy5/src/main/java/com/taller/proye01/model/dto/DatosDtoI.java)
+> - Añadimos a `proy5/src/main/java/com/taller/proye01/repository/DatosRepo.java` [link](proy5/src/main/java/com/taller/proye01/repository/DatosRepo.java)
+> - Se crea `proy5/src/main/java/com/taller/proye01/service/DatosService.java` (interface) [link](proy5/src/main/java/com/taller/proye01/service/DatosService.java)
+> - Se crea `proy5/src/main/java/com/taller/proye01/service/DatosServicesImpl.java` (clase) [link](proy5/src/main/java/com/taller/proye01/service/DatosServicesImpl.java)
+> - Editamos `proy5/src/main/java/com/taller/proye01/controller/DatosController.java` [link](proy5/src/main/java/com/taller/proye01/controller/DatosController.java)
 
 
 ## Base de Datos
