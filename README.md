@@ -166,6 +166,53 @@ vid 4-7 / 12ago : http://localhost:9090/datos  -  http://localhost:9090/datoscon
 ## [proy5](/proy5)
 vid 1-4 / 16ago : http://localhost:9090
 
+*`proy5` tiene como base el `proye01_clase1_v2.zip` de aulas*
+> [!NOTE]
+> Dependencias utilizadas:
+> - springweb
+> - posgresql
+> - jpa
+> - jdbc
+> - lombok
+
+> [!TIP]
+> En `proy4` se realiza:
+> - Se crea `DatosDtoI` (interface) [link]()
+> - Añadimos a `DatosRepo` [link]()
+> - Se crea `DatosService` (interface) [link]()
+> - Se crea `DatosServiceImpl` (clase) [link]()
+> - Editamos `DatosController` [link]()
+
+
+## Base de Datos
+[backup de academia](resources/academia.backup)
+
+*datos*
+
+![tabladatos](resources/datos.png)
+```sql
+```
+*departamentos*
+
+![tabladepartamentos](resources/departamentos.png)
+```sql
+```
+*docentes*
+
+![tabladocentes](resources/docentes.png)
+```sql
+```
+*materias*
+
+![tablamaterias](resources/materias.png)
+```sql
+```
+*personal*
+
+![tablapersonal](resources/personal.png)
+```sql
+```
+
 ---
 jwt token
 
