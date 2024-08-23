@@ -164,7 +164,7 @@ vid 4-7 / 12ago : http://localhost:9090/datos  -  http://localhost:9090/datoscon
 > ```
 
 ## [proy5](/proy5)
-vid 1-4 / 16ago : http://localhost:9090
+vid 1-4 / 16ago : http://localhost:9090/datosdto
 
 *`proy5` tiene como base el `proye01_clase1_v2.zip` de aulas*
 > [!NOTE]
